@@ -3,12 +3,12 @@ const express = require('express');
 const TelegramBot = require('node-telegram-bot-api');
 
 const app = express();
-app.use(express.json()); // Para processar requisições JSON do Telegram
+app.use(express.json()); 
 
 const token = process.env.TELEGRAM_BOT_TOKEN;
 const bot = new TelegramBot(token);
 
-// Respostas do bot
+
 const respostas = {
   '/start': '',
   'furia': 'A FURIA é uma organização brasileira de e-sports fundada em 2017. Ela se destaca por sua atuação em diversas modalidades, como Counter-Strike 2, Rocket League, League of Legends, Valorant, Rainbow Six: Siege, Apex Legends e Futebol de 7. Além de competições, a FURIA também se posiciona como um movimento sociocultural, expandindo seu alcance e engajamento.',
