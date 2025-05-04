@@ -5,3 +5,7 @@ Este projeto visa desenvolver uma alternativa para os fãs do time de CS da FURI
 ## Integrantes da equipe
 
 * Nicolas Almeida Prado da Silva
+
+## Instruções de utilização
+
+Os usuários do sistema podem acessá-lo diretamente pela url: https://furia-fan-chat-zeta.vercel.app/
